@@ -1,88 +1,85 @@
-# Entorno virtual
+# Archivos de entorno virtual
 .venv/
 env/
 venv/
 ENV/
-.python-version
 
-# Archivos de caché de Python
+# Archivos de Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-
-# Archivos de distribución / empaquetado
-dist/
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
 *.egg-info/
+.installed.cfg
 *.egg
 
-# Caché de PyInstaller
-*.manifest
-*.spec
+# Modelos y checkpoints
+models/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
 
-# Caché de Jupyter Notebook
+# Cache de Hugging Face
+.cache/
+cache/
+hub/
+
+# Archivos generados durante el entrenamiento
+runs/
+lightning_logs/
+wandb/
+outputs/
+results/
+logs/
+
+# Notebooks
 .ipynb_checkpoints
 *.ipynb
 
-# Modelos entrenados y checkpoints (pueden ser muy grandes)
-models/*
-*.ckpt
-*.pt
-*.pth
-*.bin
-*.h5
-
-# Excepciones específicas para modelos que quieras incluir
-!models/.gitkeep
-
-# Logs y outputs
-logs/
-*.log
-tensorboard/
-wandb/
-runs/
-
-# Archivos de configuración específicos del entorno
-.env
-.venv
-.envrc
-.direnv
-
-# Caché de Pytest
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Archivos de VSCode
-.vscode/
-*.code-workspace
-.history/
-
-# Archivos de PyCharm
-.idea/
-*.iml
-
-# Archivos de sistema operativo
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Archivos del editor
+.vscode/
+.idea/
 *.swp
+*.swo
 *~
 
 # Archivos temporales
 tmp/
 temp/
+*.tmp
+*.temp
 
-# Archivos específicos de Google Colab
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-drive/
-sample_data/
-*.err
-*.out
+# Evitar cargar archivos grandes por accidente
+*.gz
+*.zip
+*.tar
+*.7z
+*.rar
+*.csv
+*.pkl
+*.h5
 
-# Datos grandes (opcional, dependiendo de si quieres versionar datos)
-# data/*
-# !data/.gitkeep
-# !data/reglamento.json
+# Tokens y secretos
+.env
+.secrets
+*.key
