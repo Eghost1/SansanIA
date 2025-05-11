@@ -74,6 +74,14 @@ Thumbs.db
 tmp/
 temp/
 
+# Archivos específicos de Google Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+drive/
+sample_data/
+*.err
+*.out
+
 # Datos grandes (opcional, dependiendo de si quieres versionar datos)
 # data/*
 # !data/.gitkeep
