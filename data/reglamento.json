@@ -1,0 +1,32 @@
+[
+  {
+    "instruction": "¿Qué significa ser alumno regular?",
+    "input": "Perfil: alumno, docente, administrativo, director",
+    "output": "ALUMNO REGULAR es aquél que está incorporado a un Plan de Estudio de una carrera determinada, sujeto al cumplimiento de requisitos y exigencias que se señalan en el presente reglamento."
+  },
+  {
+    "instruction": "¿Qué es un alumno regular de dedicación parcial?",
+    "input": "Perfil: alumno, docente, administrativo, director",
+    "output": "ALUMNO REGULAR DE DEDICACION PARCIAL es aquél que ha sido autorizado por la Vicerrectoría Académica para inscribir menos de 10 créditos en un semestre académico regular. Esta autorización no podrá ser extendida por más de cuatro semestres académicos regulares, durante la permanencia del alumno en la Universidad."
+  },
+  {
+    "instruction": "¿Qué escala de notas se utiliza y cuál es la nota mínima de aprobación?",
+    "input": "Perfil: alumno, docente, administrativo, director",
+    "output": "Las notas en una asignatura se expresarán en términos de una escala de 0 a 100. Para aprobar una asignatura el alumno deberá obtener en ella una nota final igual o superior a 55. En caso contrario el alumno será reprobado."
+  },
+  {
+    "instruction": "¿Qué puede hacer un alumno que ya tiene el grado de licenciado en Ciencias de la Ingeniería o Ciencias?",
+    "input": "Perfil: alumno, docente",
+    "output": "Un alumno que posea el Grado de Licenciado en Ciencias de la Ingeniería o en Ciencias podrá optar a ingresar a un programa de Magíster de acuerdo a la Reglamentación General pertinente, deberá cambiarse a otra carrera o abandonar la Universidad."
+  },
+  {
+    "instruction": "¿Puede un alumno presentar peticiones a la universidad? ¿Bajo qué condiciones?",
+    "input": "Perfil: alumno, docente, administrativo, director",
+    "output": "El alumno está en su derecho de presentar peticiones a la autoridad pertinente sobre cualquier asunto de interés público o privado, sin otra limitación que la de proceder en términos respetuosos y de acuerdo a los procedimientos vigentes."
+  },
+  {
+    "instruction": "¿Puede un alumno pedir revisión de su situación académica si no está conforme con su nota?",
+    "input": "Perfil: alumno, docente, administrativo, director",
+    "output": "El alumno tiene derecho a solicitar la revisión de su situación académica en caso de que no esté conforme con la calificación obtenida en una asignatura. Esta solicitud deberá ser presentada por escrito al docente responsable de la asignatura, dentro de los cinco días hábiles siguientes a la publicación de las notas finales."
+  }
+]
